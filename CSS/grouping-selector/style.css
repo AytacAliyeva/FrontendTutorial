@@ -1,6 +1,6 @@
 /*Groupin selector-bir nece tag'e eyni css'in verilmesidi*/
-
 h1, h2, pre, p{
     color: #cd3131;
     text-align: center;
+    background-color: honeydew;
 }
