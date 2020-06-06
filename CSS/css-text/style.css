@@ -1,0 +1,19 @@
+.para
+{
+    color: brown;
+   /* text-align:center;*/
+    text-decoration: overline;/*line-through, underline*/
+    text-transform: capitalize;/*uppercae, lowercase*/
+    text-indent: 100px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    word-spacing: 5px;
+    text-shadow: 5px 5px 3px red;
+}
+div{
+    text-align: justify;
+    border:3px solid saddlebrown;
+}
+
+
+
