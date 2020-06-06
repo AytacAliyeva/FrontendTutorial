@@ -1,0 +1,66 @@
+.main
+{
+    width: 200px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+.bashliq
+{
+    font-family: "Cera Stencil";
+    font-size: 25px;
+    color: #cd3131;
+    text-align: center;
+}
+.input-text
+{
+    padding: 10px 10px;
+    border: 2px solid coral;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.input-text2
+{
+    padding: 10px 10px;
+    border: 2px solid coral;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.input-mail
+{
+    padding: 10px 10px;
+    border: 2px solid coral;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.input-pass
+{
+    padding: 10px 10px;
+    border: 2px solid coral;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.man{
+    margin-left: 25px;
+    font-family: "Cera Stencil";
+    font-size: 20px;
+    color: #cd3131;
+}
+.woman{
+    font-family: "Cera Stencil";
+    font-size: 20px;
+    color: #cd3131;
+}
+.submit
+{
+    padding: 10px 25px;
+    margin: 40px;
+    border: 1px solid coral;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Cera Stencil";
+    font-size: 20px;
+    color: #cd3131;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
