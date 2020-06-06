@@ -7,10 +7,10 @@
    /* margin: 100px 50px;*/
     /*margin: 100px;*/
     /*margin: 100px 50px 60px;*/
-    margin: 100px;
+    margin-top: 100px;
 }
 .para
 {
     border: 1px solid darkorange;
-    margin: inherit;
+    margin-top: inherit;
 }
