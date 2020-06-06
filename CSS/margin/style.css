@@ -1,0 +1,16 @@
+.main
+{
+    background-color: darkturquoise;
+   /* margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;*/
+   /* margin: 100px 50px;*/
+    /*margin: 100px;*/
+    /*margin: 100px 50px 60px;*/
+    margin: 100px;
+}
+.para
+{
+    border: 1px solid darkorange;
+    margin: inherit;
+}
