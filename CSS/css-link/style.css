@@ -1,0 +1,21 @@
+/*.li
+{
+    color: rebeccapurple;
+    li:link ile eynidi
+}*/
+.li:link{
+    color: rebeccapurple;
+    text-decoration: none;
+    background-color: #fcb69f;
+    border-radius: 20px;
+}
+.li:visited {
+    color: green;
+}
+.li:hover
+{
+    color: blue;
+}
+.li:active{
+    color: darkorange;
+}
