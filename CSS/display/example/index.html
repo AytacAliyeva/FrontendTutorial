@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="imgbox" id="remove">
+        <h1>Image1</h1>
+        <img src="image/bmw.jpg" alt="" style="width: 100%; border-radius: 10px">
+        <button  class="button" onclick="Remove()" >Remove</button>
+    </div>
+    <div class="imgbox" id="hide">
+        <h1>Image2</h1>
+        <img src="image/bu.jpg" alt="" style="width: 100%; border-radius: 10px">
+        <button class="button hide" onclick="Hidden()">Hide</button>
+    </div>
+    <div class="imgbox" id="reset">
+        <h1>Image3</h1>
+        <img src="image/ff.jpg" alt="" style="width: 100%; border-radius: 10px">
+        <button class="button reset" onclick="Reset()">Reset</button>
+    </div>
+    <script>
+        function Remove()
+        {
+            document.getElementById("remove").style.display="none";
+        }
+        function Hidden()
+        {
+            document.getElementById("hide").style.visibility="hidden";
+        }
+        function Reset()
+        {
+            document.getElementById("remove").style.display="inline-block";
+            document.getElementById("hide").style.visibility="visible";
+        }
+    </script>
+</body>
+</html>
