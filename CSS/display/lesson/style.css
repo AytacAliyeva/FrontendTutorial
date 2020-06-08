@@ -1,0 +1,18 @@
+.main
+{
+    width:200px;
+    height: 400px;
+    border:1px solid red;
+    display: inline-block;/*main1 div'i ile bu divi yan yana getirir*/
+
+}
+.main1
+{
+    width:200px;
+    height: 400px;
+    border:1px solid red;
+    /*float:left;*/
+    display: inline-block;
+
+}
+
