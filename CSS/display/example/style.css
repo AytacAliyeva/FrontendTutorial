@@ -29,6 +29,6 @@
 .button:active {
     background-color: rosybrown;
     box-shadow: 0 5px rosybrown;
-    transform: translateY(4px);
+   /* transform: translateY(4px);*/
 }
 
