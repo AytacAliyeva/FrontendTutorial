@@ -1,0 +1,14 @@
+.box1{
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+    /*float: left;*/
+    display: inline-block;
+}
+.box2{
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+    /*float: left;*/
+    display: inline-block;
+}
