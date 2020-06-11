@@ -1,0 +1,19 @@
+/*Descendant selector*/
+div p {
+    color: chocolate;
+}
+/*
+Child selector
+        div > p{
+            color: crimson;
+ }
+
+Adjacent sibling selector
+div + p
+{
+    color: chocolate;
+
+div ~ p
+{
+    color: chocolate;
+}}*/
