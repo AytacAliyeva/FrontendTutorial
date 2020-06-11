@@ -35,7 +35,16 @@
     content: "";
     clear: both;
     display: table;
+
 }
+.list {
+    width: 300px;
+}
+.list li a:nth-child(2)
+{
+    background-color: cyan;
+}
+
 .sidemenu li a{
     display: block;
     font-size: 20px;
