@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Noto+Sans+HK&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #f2f2f2;
+}
+nav
+{
+    background-color: #1b1b1b;
+    padding: 20px;
+
+}
+nav:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo
+{
+    display: inline-block;
+    color: white;
+    float: left;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    float: left;
+    background-color: #1b1b1b;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    line-height: 70px;
+    padding:8px 15px;
+}
+.feature, .service, .more
+{
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+
+}
+.feature li, .service li{
+    position: relative;
+    float: none;
+    display: list-item;
+    width: 150px;
+    text-align: center;
+    margin:0;
+    border-bottom: 1px solid darkblue;
+
+}
+.more li
+{
+    position: relative;
+    left: 150px;
+    top: -70px;
+
+}
+.feature li a, .service li a, .more li a{
+    margin-top: 10px;
+    padding: 20px;
+    text-align: justify-all;
+    overflow: auto;
+}
+nav ul li a:hover
+{
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #33ffff;
+}
+nav ul li:hover > ul
+{
+    top: 90px;
+    opacity: 1;
+    visibility: visible;
+}
+
