@@ -28,9 +28,9 @@ b{
     border-radius: 30px;
     width: 250px;
     border: 1px solid lightgray;
-
+    outline: none;
 }
-::placeholder
+.email::placeholder
 {
     color: lightgray;
 }
@@ -46,23 +46,42 @@ b{
     color: white;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 10px;
+    outline: none;
+}
+.notify:hover
+{
+    background-color: dodgerblue;
+}
+.notify:active
+{
+    background-color: lightblue;
 }
 .img{
-    width: 450px;
-    height: 300px;
-    margin-left: 450px;
+    display: block;
+    width:40%;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 20px;
 }
 .div-logo
 {
     margin-left: 600px;
     margin-top: 80px;
+    display: flex;
+   /* justify-content: space-around; logolar arasina mesafe qoymaq ucun*/
 }
 .logo
 {
     font-size: 15px;
     color: cornflowerblue;
-    border: 1px solid lightgray;
-    border-radius: 30px;
+    border: 1px solid lightskyblue;
+    border-radius: 50%;
     padding: 8px;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.logo:hover
+{
+    background-color: lightskyblue;
 }
