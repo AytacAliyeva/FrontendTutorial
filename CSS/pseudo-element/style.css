@@ -1,0 +1,17 @@
+p::first-line
+{
+    color: chocolate;
+}
+p::first-letter
+{
+    font-size: 50px;
+}
+p::after
+{
+    content: "Aytac Aliyeva";
+    color: crimson;
+}
+p::before
+{
+    content: "Pseudo Elements";
+}
