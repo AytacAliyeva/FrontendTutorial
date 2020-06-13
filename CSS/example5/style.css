@@ -2,87 +2,66 @@
 *
 {
     box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
 }
 .main{
     display: block;
     margin: 0 auto;
     width: 50%;
 }
-input[type="text"]
+.col-25
+{
+    float: left;
+    width: 25%;
+}
+.col-75
+{
+    width: 75%;
+    float: left;
+}
+input[type="text"], input[type="email"], input[type="password"]
 {
     width: 50%;
-    margin: 15px;
-    padding: 15px;
+    padding:10px;
     border-radius: 10px;
     border: 2px solid #1ABC9C;
     outline:none;
 }
+input[type="radio"]
+{
+    border:2px solid #0E6655;
+}
+input:hover, textarea:hover, button:hover, select:hover{
+    border: 2px solid #0E6655;
+    box-shadow: 3px 3px 3px 3px #D1F2EB;
+}
+
 input::placeholder
 {
     font-family: 'Playfair Display', serif;
 }
-label
+.row
 {
-    margin: 30px;
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    color: #0E6251;
+    margin: 20px;
+    padding: 20px;
 }
-input[type="email"]
+input[type="radio"], input[type="date"], option
 {
-    width: 50%;
-    margin: 15px 45px;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid #1ABC9C;
-    outline:none;
-}
-input[type="password"]
-{
-    width: 50%;
-    margin: 15px 25px;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid #1ABC9C;
-    outline:none;
-}
-input:hover{
-    border: 2px solid #0E6655;
-    box-shadow: 3px 3px 3px 3px #D1F2EB;
-}
-input[type="radio"]
-{
-    margin:10px 0px;
+    margin-left: 15px;
 }
 input[type="date"]
 {
     border-radius: 10px;
-    border: 2px solid #1ABC9C;
-    outline:none;
+    border: 2px solid #1ABC9C ;
+    outline: none;
 }
-input[type="date"]:hover
-{
-    border: 2px solid #0E6655;
-    box-shadow: 3px 3px 3px 3px #D1F2EB;
-}
+
 textarea
 {
-    margin: 25px;
-    padding: 15px;
-    width: 75%;
+    resize: vertical;
+    width: 61%;
     border-radius: 10px;
-    border: 2px solid #1ABC9C;
-    outline:none;
-    resize: none;
-}
-textarea::placeholder
-{
-    font-family: 'Playfair Display', serif;
-}
-textarea:hover
-{
-    border: 2px solid #0E6655;
-    box-shadow: 3px 3px 3px 3px #D1F2EB;
+    border: 2px solid #1ABC9C ;
 }
 button
 {
@@ -99,8 +78,28 @@ button
     font-family: 'Playfair Display', serif;
     font-size: 20px;
 }
-button:hover
+label
 {
-    border: 2px solid #0E6655;
-    box-shadow: 3px 3px 3px 3px #D1F2EB;
+
+    font-family: 'Playfair Display', serif;
+    color: #0E6251;
 }
+select
+{
+    border-radius: 10px;
+    border: 2px solid #1ABC9C ;
+    outline: none;
+}
+option
+{
+    font-family: 'Playfair Display', serif;
+}
+@media screen and (max-width: 768px){
+    col-25, col-75, button
+    {
+        width: 100%;
+    }
+}
+
+
+
