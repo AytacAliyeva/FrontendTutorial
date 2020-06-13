@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+.main{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+input[type="text"]
+{
+    width: 50%;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #1ABC9C;
+    outline:none;
+}
+input::placeholder
+{
+    font-family: 'Playfair Display', serif;
+}
+label
+{
+    margin: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #0E6251;
+}
+input[type="email"]
+{
+    width: 50%;
+    margin: 15px 45px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #1ABC9C;
+    outline:none;
+}
+input[type="password"]
+{
+    width: 50%;
+    margin: 15px 25px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #1ABC9C;
+    outline:none;
+}
+input:hover{
+    border: 2px solid #0E6655;
+    box-shadow: 3px 3px 3px 3px #D1F2EB;
+}
+input[type="radio"]
+{
+    margin:10px 0px;
+}
+input[type="date"]
+{
+    border-radius: 10px;
+    border: 2px solid #1ABC9C;
+    outline:none;
+}
+input[type="date"]:hover
+{
+    border: 2px solid #0E6655;
+    box-shadow: 3px 3px 3px 3px #D1F2EB;
+}
+textarea
+{
+    margin: 25px;
+    padding: 15px;
+    width: 75%;
+    border-radius: 10px;
+    border: 2px solid #1ABC9C;
+    outline:none;
+    resize: none;
+}
+textarea::placeholder
+{
+    font-family: 'Playfair Display', serif;
+}
+textarea:hover
+{
+    border: 2px solid #0E6655;
+    box-shadow: 3px 3px 3px 3px #D1F2EB;
+}
+button
+{
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #A3E4D7 ;
+    outline:none;
+    resize: none;
+    width: 20%;
+    background-color: #A3E4D7 ;
+    color: #0E6251;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+button:hover
+{
+    border: 2px solid #0E6655;
+    box-shadow: 3px 3px 3px 3px #D1F2EB;
+}

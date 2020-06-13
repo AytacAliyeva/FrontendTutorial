@@ -1,0 +1,35 @@
+.paraq:target
+{
+    color: chocolate;
+}
+.par:target
+{
+    border:1px solid red;
+}
+
+a[target]
+{
+    background-color: cyan;
+}
+a[target="_blank"]
+{
+    border:2px solid blue;
+}
+
+a[title~=Aytac]
+{
+   font-size: 50px;
+}
+/*
+a[title|=Aytac]
+{
+    font-size: 50px;
+}
+a[title^=Aytac]
+{
+    font-size: 50px;
+}
+a[title$=Aytac]
+{
+    font-size: 50px;
+}*/
