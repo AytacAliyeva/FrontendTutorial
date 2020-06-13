@@ -75,6 +75,7 @@ nav ul li a{
     top: -70px;
 
 }
+
 .feature li a, .service li a, .more li a{
     margin-top: 10px;
     padding: 20px;
@@ -92,5 +93,38 @@ nav ul li:hover > ul
     top: 90px;
     opacity: 1;
     visibility: visible;
+}
+.img{
+    margin: 10px;
+    float: left;
+    padding-left: 30px;
+}
+.image
+{
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    display: block;
+
+
+}
+.image:hover
+{
+    box-shadow: 3px 3px 3px 3px lightgray;
+    border: 1px solid gray;
+    transition: .3s;
+}
+@media only screen and (max-width: 700px)
+{
+    .image
+    {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 700px)
+{
+    .image
+    {
+        width: 50%;
+    }
 }
 
