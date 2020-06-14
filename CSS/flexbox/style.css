@@ -1,0 +1,20 @@
+.container
+{
+    height: 700px;
+    display: flex;
+    background-color: cornflowerblue;
+  /*  justify-content: center;!*Setr uzre duzenleyir(center,space-around,space-between,flex-end,flex-start)*!
+    align-items: center;!*Sutun uzre duzenleyir*!*/
+    /*height: 500px;*/
+/*    flex-direction: row;!*row,column,row-reverse,column-reverse*!
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;/*flex-direction ve flex-wrapin birleshimesidir*/
+   /* align-content: center;*/
+}
+.container > div{
+    margin: 10px;
+    padding:20px;
+    border: 1px solid red;
+    /*width: 300px;*/
+
+}
