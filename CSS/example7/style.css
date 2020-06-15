@@ -272,4 +272,9 @@ input:checked + .slider:before {
     background-color: hsl(232, 19%, 15%);
     border: 2px solid hsl(232, 19%, 15%);
 }
-
+@media screen and (max-width: 400px) {
+    .social
+    {
+        width: 100%;
+    }
+}

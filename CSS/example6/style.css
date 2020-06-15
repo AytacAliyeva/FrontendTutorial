@@ -62,8 +62,8 @@
 
 .svg {
 
-    padding-top: 130px;
-    padding-left: 1360px;
+    padding-top: 65px;
+    padding-left: 910px;
     float: right;
     margin-top: -560px;
     position: absolute;
@@ -190,13 +190,13 @@
 
 .how img {
     float: right;
-    margin-top: -120px;
+    margin-top: -170px;
     /*display: inline;*/
 }
 
 .button {
     margin-top: -250px;
-    margin-left: 980px;
+    margin-left: 700px;
     padding: 8px 10px;
     width: 15%;
     border-radius: 20px;
@@ -268,8 +268,8 @@
 .text1{
     float: left;
     width: 15%;
-    margin-left: 120px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
     padding: 20px 50px;
 }
 .text1 h3
