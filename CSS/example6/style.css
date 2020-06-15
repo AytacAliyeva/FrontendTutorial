@@ -54,6 +54,7 @@
     height: 600px;
     background-color: #21032E;
     position: relative;
+
 }
 
 .word {
@@ -96,15 +97,10 @@
     border-radius: 20px;
     border: 1px solid #6A4E76;
     background-color: #21032E;
-    cursor: pointer;
     color: white;
+    cursor: pointer;
 }
 
-.btn:hover {
-    background-color: #886199;
-    box-shadow: 3px 3px 3px #63526A;
-    border: 2px solid #886199;
-}
 
 .image {
     float: right;
@@ -258,41 +254,45 @@
     z-index: 1;
 }*/
 
-.footer-image
-{
+.footer-image {
     position: relative;
 }
+
 .footer-img {
     margin-left: -10px;
 }
-.text1{
+
+.text1 {
     float: left;
     width: 15%;
     margin-left: 100px;
     margin-right: 20px;
     padding: 20px 50px;
 }
-.text1 h3
-{
-    color:#C3C1C4  ;
+
+.text1 h3 {
+    color: #C3C1C4;
     font-family: 'Katibeh', cursive;
     font-size: 20px;
 }
-.text1 ul{
+
+.text1 ul {
     list-style-type: none;
     margin-top: 20px;
 }
-.text1 ul li{
+
+.text1 ul li {
     padding-top: 10px;
 }
-.text1 ul li a{
+
+.text1 ul li a {
     text-decoration: none;
     color: black;
     font-family: 'Katibeh', cursive;
     font-size: 18px;
 }
-.text1 ul li a:hover
-{
+
+.text1 ul li a:hover {
     text-decoration: underline;
 }
 
