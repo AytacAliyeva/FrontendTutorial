@@ -61,7 +61,7 @@ header
 }
 .nav a:hover
 {
-    color: #0D1B35;
+    color: #AEB6BF;
     transition: .5s;
 }
 .text
@@ -104,17 +104,16 @@ header
 .about-text button
 {
     width: 160px;
-    padding:25px;
+    padding:15px 25px;
     border-radius: 30px;
     border: none;
-    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
     outline: none;
     cursor: pointer;
 }
 .about-text button:hover
 {
-    border: 2px solid #FFDAFD;
-    box-shadow: 2px 2px 2px  #E7B7E4;
+    border: 1px solid #D0ECE7;
 }
 .section-gallery
 {
@@ -170,11 +169,11 @@ header
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto auto;
-    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
 }
 .donate-text
 {
-    color: #E37DDF;
+    color: white;
     font-size: 20px;
     font-family: 'Noto Sans JP', sans-serif;
     margin-left: 100px;
@@ -184,13 +183,13 @@ header
 {
     margin-top: 30px;
     width: 200px;
-    padding: 15px 25px;
-    border-radius: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
     border: none;
     font-size: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+    /*font-family: 'Noto Sans JP', sans-serif;*/
     text-transform: uppercase;
-    background-image: linear-gradient(-225deg, #7742B2 0%, #F180FF 52%, #FD8BD9 100%);
+    outline: none;
 }
 .blog-text h1, .blog-text p
 {
@@ -293,8 +292,9 @@ header
     margin-top: 20px;
     padding: 15px;
     border-radius: 20px;
-    border: 1px solid #FAD7A0;
+    border: 1px solid #76D7C4;
     font-size: 18px;
+    outline: none;
 }
 ::placeholder
 {
@@ -313,7 +313,8 @@ textarea
     border-radius: 30px;
     font-size: 16px;
     font-family: 'Noto Sans JP', sans-serif;
-    color: #AEB6BF;
-    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    color: white;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
     border: none;
+    outline: none;
 }
