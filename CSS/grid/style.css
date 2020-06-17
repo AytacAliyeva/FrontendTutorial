@@ -1,0 +1,25 @@
+.container
+{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px;
+    /*grid-gap: 50px 60px;*/
+    /*grid-row-gap: 50px;*/
+    /*grid-column-gap: 50px;*/
+    justify-content:center;/*space-around, space-evenly, space-between, center, start, end*/
+
+}
+.container> div
+{
+    border: 1px solid red;
+
+}
+/*
+.box1
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    !*grid-column-start: 1;*!
+    !*grid-column-end: 3;*!
+}*/

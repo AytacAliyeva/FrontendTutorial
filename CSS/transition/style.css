@@ -1,0 +1,25 @@
+.main
+{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    justify-content: center;
+    margin:100px;
+}
+.main div
+{
+    width: 100px;
+    height:100px;
+    background-color: coral;
+    margin-top: 50px;
+}
+.main div:hover
+{
+    /*transition-property:all;*/
+    /*transition-duration: 5s;*/
+    /*transition-delay: .5s;*/
+    /*transition-timing-function: ease-in-out; !*ease,ease-in, ease-out,  *!*/
+    width: 400px;
+     transition: all 3s .5s ease;
+}
