@@ -141,15 +141,7 @@ header
     padding-top: 100px;
 }
 .images{
- /*   width: 100%;
-    margin-top: 200px;
-    display: grid;
-   !* align-content: space-between;
-    justify-content: space-around;*!
-    grid-template-columns: auto auto auto;
-    grid-row-gap: 20px;
-   !* overflow: hidden;
-    position: relative;*!*/
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
