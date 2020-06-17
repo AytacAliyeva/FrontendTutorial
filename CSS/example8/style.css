@@ -190,6 +190,7 @@ header
     /*font-family: 'Noto Sans JP', sans-serif;*/
     text-transform: uppercase;
     outline: none;
+    cursor: pointer;
 }
 .blog-text h1, .blog-text p
 {
@@ -317,4 +318,5 @@ textarea
     background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
     border: none;
     outline: none;
+    cursor: pointer;
 }
