@@ -89,6 +89,7 @@ header
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
+    position: relative;
 }
 .about-text h1
 {
@@ -101,7 +102,7 @@ header
     color:#C8D6D4;
     font-family: 'Noto Sans JP', sans-serif;
 }
-.about-text button
+.hire
 {
     width: 160px;
     padding:15px 25px;
@@ -110,10 +111,19 @@ header
     background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
     outline: none;
     cursor: pointer;
+    /*display: inline-block;*/
+    position: absolute;
 }
-.about-text button:hover
+.hire:hover
 {
     border: 1px solid #D0ECE7;
+    display: block;
+}
+.hire:before
+{
+    content: "";
+    display: table;
+    clear: both;
 }
 .section-gallery
 {
@@ -145,15 +155,18 @@ header
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    padding-bottom: 10px;
 }
-.img img
+.img{
+    padding-bottom: 10px;
+}
+.img1
 {
     width: 300px;
     border-radius: 20px;
     height: 200px;
 }
-.img img:hover
+.img1:hover
  {
     box-shadow: 2px 2px  #222;
     border: 2px solid #222;
@@ -162,7 +175,6 @@ header
  }
 .donate
 {
-    margin-top: 10px;
     width: 100%;
     height: 100px;
     display: grid;
