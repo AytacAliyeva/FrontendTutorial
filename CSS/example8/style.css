@@ -37,9 +37,7 @@ header
     display: grid;
     grid-template-columns: auto 100px auto auto auto auto auto;
     margin-top: 15px;
-    /*justify-content: space-around;*/
     grid-gap:50px;
-    /*position: fixed;*/
     width: 50%;
 
 }
@@ -89,7 +87,7 @@ header
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
-    position: relative;
+    /*position: relative;*/
 }
 .about-text h1
 {
@@ -111,7 +109,6 @@ header
     background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
     outline: none;
     cursor: pointer;
-    /*display: inline-block;*/
     position: absolute;
 }
 .hire:hover
@@ -157,7 +154,7 @@ header
     justify-content: space-around;
     padding-bottom: 10px;
 }
-.img{
+.imag{
     padding-bottom: 10px;
 }
 .img1
