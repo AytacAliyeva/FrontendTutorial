@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.nav-ul li a
+{
+    font-family: 'Lobster', cursive;
+    color: #212529;
+    font-size: 18px;
+}
+.nav-social li a
+{
+    padding: 0 10px;
+    color: #212529 ;
+}
+.nav-ul li a:hover
+{
+    color: #fb8b24;
+}
+.drop-ul li a{
+    color:#fb8b24;
+}
+.icon:hover
+{
+    color: #fb8b24;
+}
