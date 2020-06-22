@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-.nav-ul li a
-{
+.nav-ul li a {
     font-family: 'Lobster', cursive;
     color: #212529;
     font-size: 18px;
+}
+.hadr{
+    background-color:	rgba(232,232,232,0.7);
 }
 .nav-social li a
 {
@@ -20,4 +22,48 @@
 .icon:hover
 {
     color: #fb8b24;
+}
+.main-bg
+{
+    height: 550px;
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.15) ), url('img/banner/hero-banner.png');
+    background-size: cover;
+    position: relative;
+}
+.hero-banner__content
+{
+    height: 50%;
+}
+
+.hero-banner__content h3
+{
+    text-align: center;
+    font-family:"Lora";
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-banner__content h1
+{
+    text-align: center;
+    font-family:"Lora";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+.hero-banner__content h4
+{
+    text-align: center;
+    font-family:"Lora";
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
 }
