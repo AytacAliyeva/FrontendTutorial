@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lakki+Reddy&family=Salsa&display=swap');
+.head{
+    background-color: rgba(253, 242, 233,0.7);
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgb(250, 229, 211);
+}
 .magic
 {
     text-transform: capitalize;
@@ -39,16 +45,107 @@
 }
 .car-img
 {
-    width: 500px;
-    height: 500px;
+    border-radius: 10px;
 }
-.img{
-    position: absolute;
-    margin: auto;
-    min-height: 100%;
-    min-width: 100%;
-    left: -100%;
-    right: -100%;
-    top: -100%;
-    bottom: -100%;
+.img
+{
+    box-shadow: 3px 3px 3px 3px #e8c2ca;
+}
+.caption h1
+{
+    font-family: 'Salsa', cursive;
+    font-size: 80px;
+    color: #f08700;
+}
+.text h1
+{
+    font-size: 40px;
+    color: #f08700;
+}
+.text p{
+    font-size: 20px;
+    color: #dab785;
+}
+.img9
+{
+    width: 100%;
+    border-radius: 10px;
+   transition: 0.9s;
+    position: sticky;
+}
+.img9:hover{
+    opacity: 0.7;
+}
+.line{
+    width: 120px;
+    height: 3px;
+    background-color: #f7b267;
+    margin: 0 auto;
+}
+.bttnn
+{
+    border: 2px solid #dab785 !important;
+    color:#dab785 ;
+    background-color: transparent;
+    outline: none;
+    width: 150px;
+
+}
+.section-row
+{
+    background-image: url("image/bg1.png");
+    border-radius: 5px;
+}
+.gal-text
+{
+    font-family: 'Salsa', cursive;
+    font-size: 30px;
+    color: #f08700;
+}
+.para
+{
+    color: #edaf97;
+}
+.gall-img:hover
+{
+    opacity: 0.6;
+    transition: 0.7s;
+    transform: scale(1.01);
+}
+.cont
+{
+    margin-top: 10px;
+    height: 600px;
+    background-image: url("image/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact-input
+{
+    width: 400px;
+    outline: none;
+    background-color: #f5e6e8;
+    border-radius: 10px;
+    border: 1px solid #f5e6e8;
+}
+::placeholder
+{
+    font-family: 'Salsa', cursive;
+    color: #f08700;
+}
+textarea
+{
+    width: 900px;
+    outline: none;
+    background-color: #f5e6e8;
+    border-radius: 10px;
+    border: 1px solid #f5e6e8;
+    font-size: 25px;
+}
+.us
+{
+    font-family: 'Salsa', cursive;
+    font-size: 50px;
+    color: #f08700;
 }
