@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
+.magic
+{
+    text-transform: capitalize;
+    color: #ee4266;
+    font-family: 'Freckle Face', cursive;
+    font-size: 25px;
+}
+.nav-a
+{
+    font-family: 'Lakki Reddy', cursive;
+    color: #ee4266;
+    transition: 0.7s;
+}
+.nav-a:hover
+{
+    color: #ff97b7;
+}
+.drop-li
+{
+    border: 2px solid #ee4266;
+    border-radius: 20px;
+    margin-top: 3px;
+    box-shadow: 3px 3px 3px #fadde1;
+}
+.nav-ul
+{
+    border: 0 !important;
+    background-color: transparent !important;
+}
+.nav-ul a:hover
+{
+    color: #ff97b7;
+}
+.nav-ul a
+{
+    color: #940638;
+}
+.car-img
+{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+.car-img img
+{
+    position: absolute;
+    object-fit: contain;
+}
