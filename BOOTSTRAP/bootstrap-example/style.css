@@ -149,3 +149,12 @@ textarea
     font-size: 50px;
     color: #f08700;
 }
+.bttn
+{
+    border: 2px solid #f08700 !important;
+    color:#f08700 ;
+    background-color: transparent;
+    outline: none;
+    width: 150px;
+
+}
