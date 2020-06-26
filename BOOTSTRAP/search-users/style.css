@@ -108,12 +108,13 @@ span {
 @media screen and (max-width: 760px) {
     .button-view {
         position: absolute;
-        top: 9.5rem;
+        top: 11rem;
         left: 6.6rem;
 
     }
-    .image
+    .info
     {
-        margin-top: 10px;
+        margin: 1px;
     }
+
 }
