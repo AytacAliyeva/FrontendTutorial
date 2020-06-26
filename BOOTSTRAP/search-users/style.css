@@ -13,18 +13,10 @@ body, html {
 .main {
     background-color: #eaf4f4;
 }
-.col-md-2{
-    text-align: center;
-}
-.row{
-    display: flex;
-    justify-content: space-around;
-}
 
 .search-input {
     width: 100%;
     background: #fff;
-    display: block;
     font-size: 2rem;
     border-radius: 1rem;
     border: 1px solid #bfd8bd;
@@ -46,7 +38,6 @@ body, html {
     width: 5%;
     border: none !important;
     background: #fff;
-    display: block;
     font-size: 2rem;
     border-radius: 1rem;
     outline: none;
@@ -67,8 +58,8 @@ body, html {
 
 .button-view {
     position: absolute;
-    top: 12rem;
-    left: 3.5rem;
+    top: 11rem;
+    left: 4rem;
     border: 1px solid lightgrey;
     background-color: white;
     color: #714674;
@@ -76,6 +67,7 @@ body, html {
     padding: 0.2rem;
     width: 11rem;
     font-family: 'Pangolin', cursive;
+    font-size: 1.5rem;
     visibility: hidden;
     outline: none;
     cursor: pointer;
@@ -87,7 +79,7 @@ body, html {
     font-size: 1.6rem;
 }
 
-.span {
+span {
 
     color: #8e9aaf;
     font-family: 'Pangolin', cursive;
@@ -97,7 +89,6 @@ body, html {
 .point {
     font-family: 'Pangolin', cursive;
     font-size: 2.5rem;
-
 }
 
 .info {
@@ -113,4 +104,12 @@ body, html {
     transform: scale(1.05);
     box-shadow: 2px 2px 2px 2px #e5e6e4;
     transition: 1.5s;
+}
+@media screen and (max-width: 760px) {
+    .button-view {
+        position: absolute;
+        top: 9.5rem;
+        left: 6.6rem;
+
+    }
 }
