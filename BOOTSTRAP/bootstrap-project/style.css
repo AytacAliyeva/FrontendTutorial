@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+}
 .nav-ul li a {
     font-family: 'Lobster', cursive;
     color: #212529;
@@ -67,3 +73,22 @@
     transform: translate(-50%, -50%);
     font-size: 20px;
 }
+.button
+{
+    color: #ff9f1c;
+    width: 40%;
+    padding: 3px 8px;
+    background: #353535;
+}
+.slide-text
+{
+    color: #353535;
+    font-family: 'Pangolin', cursive;
+    letter-spacing: 1px;
+}
+.days
+{
+    color: #979dac;
+}
+
+
