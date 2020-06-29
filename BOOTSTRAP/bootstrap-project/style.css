@@ -90,5 +90,30 @@ body
 {
     color: #979dac;
 }
-
+.blog-slider__leftArrow
+{
+    position:absolute;
+    top:30%;
+    left:-8%;
+}
+.blog-slider__rightArrow
+{
+    position:absolute;
+    top:30%;
+    right:-8%;
+}
+.blog-slider__leftArrow:hover
+{
+    opacity: 0.5;
+    background:black;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 30% 100%, 0% 0%);
+    transition: background-color 1000ms linear;
+}
+.blog-slider__rightArrow:hover
+{
+    opacity: 0.5;
+    background:black;
+    clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 0% 100%, 0% 0%);
+    transition: background-color 1000ms linear;
+}
 
