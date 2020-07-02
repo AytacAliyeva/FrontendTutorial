@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+    
+    <p id="can"></p>
+
+    <script>
+
+        // var person={name:"Can",surname:"Boz", age:27};
+        var person={
+            name:"Can",
+            surname:"Boz",
+            age:27,
+        fullname:function()
+        {
+            return this.name+" "+this.surname;
+        }};
+        // document.getElementById("can").innerHTML=person.name;
+        // document.getElementById("can").innerHTML=person.name + " "+person.surname+ " "+person.age+" yasinda";
+        // document.getElementById("can").innerHTML=person["name"] + " "+person["surname"]+ " "+person["age"]+" yasinda";
+        document.getElementById("can").innerHTML=person.fullname();
+
+    </script>
+
+</body>
+</html>
