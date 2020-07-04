@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-details img {
+    border-radius: 50%;
+}
+
+.main-details span {
+    color: #adb5bd;
+}
+
+.main h1 {
+    color: #484a47;
+    font-family: 'Merriweather', serif;
+}
+
+.main p {
+    color: #484a47;
+}
+.share-button
+{
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 1;
+    border:none;
+    background:#484a47 ;
+    outline: none;
+}
+.share-button:focus
+{
+    outline: none!important;
+}
+.preview-share {
+    visibility: hidden;
+}
+
+.share-icons {
+    background: #484a47;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #dee2e6;
+}
+
+.share-icons p {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #adb5bd;
+}
+
+.share-icons i {
+    color: #f8f9fa;
+    margin-left: 18px;
+}
