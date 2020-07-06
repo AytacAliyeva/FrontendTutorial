@@ -1,0 +1,44 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.game-main
+{
+    background: #f4a261;
+}
+h1
+{
+    border-bottom: 1px solid #e7d8c9;
+    padding-bottom: 5px;
+}
+span
+{
+    font-size: 125%;
+    padding:12px;
+}
+.text-result
+{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+}
+.answer-button
+{
+    width: 10%;
+    border-radius:10px ;
+    padding:8px 15px ;
+    background: #ffbf69;
+    border: 1px solid #ffbf69;
+}
+.answer-button:focus
+{
+    outline: none;
+}
+#False, #True
+{
+    font-size: 150%;
+    margin-top: 10px;
+}

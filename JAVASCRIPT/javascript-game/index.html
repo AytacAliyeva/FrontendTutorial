@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container game-main mt-5">
+    <div id="game" class="text-center">
+        <h1 class="text-center">My New Game</h1>
+        <span id="Number1">0</span>
+        <span id="Operator">+</span>
+        <span id="Number2">0</span>
+        <span>=</span>
+        <input type="text" id="result" class="text-result">
+        <button class="answer-button" id="answer">Answer</button>
+        <div class="d-flex justify-content-around ">
+            <div id="True" class="text-primary">0</div>
+            <div id="False" class="text-danger">0</div>
+        </div>
+    </div>
+</div>
+<script>
+
+    var Number1, Number2, result, Operator, True = 0, False = 0;
+    Number1 = document.getElementById('Number1');
+    Number2 = document.getElementById('Number2');
+    Operator = document.getElementById('Operator');
+    result = document.getElementById('result');
+    answer = document.getElementById('answer');
+    True = document.getElementById('True');
+    False = document.getElementById('False');
+
+    function RandomNumber(min, max) {
+        var number = Math.floor(Math.random() * (max - min)) + min;
+        return number;
+    }
+
+    function MyQuestion() {
+        var operation = ["+", "-", "*", "/"];
+        Operator.textContent = operation[RandomNumber(0, 4)];
+        Number1.textContent = RandomNumber(0, 50);
+        Number2.textContent = RandomNumber(0, 50);
+
+        if(Operator.textContent == "/"){
+            while (true)
+            {
+                Number2.textContent=RandomNumber(0, 50);
+                if (Number1.textContent % Number2.textContent == 0)
+                {
+                    break;
+                }
+            }
+        }
+    }
+    window.onload=function () {
+        MyQuestion();
+    }
+    answer.onclick =function () {
+    var ans, n1, n2;
+    n1=Number(Number1.textContent);
+        n2=Number(Number2.textContent);
+        switch (Operator.textContent) {
+            case "+": ans=n1+n2; break;
+            case "-": ans=n1-n2; break;
+            case "*": ans=n1*n2; break;
+            case "/": ans=n1/n2; break;
+            default: break;
+        }
+        if (result.value == ans)
+        {
+            True.textContent= Number(True.textContent)+1;
+        }
+        else
+        {
+            False.textContent= Number(False.textContent)+1;
+        }
+        MyQuestion();
+    }
+</script>
+</body>
+</html>
