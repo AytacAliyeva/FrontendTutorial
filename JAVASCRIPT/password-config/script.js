@@ -22,7 +22,7 @@ $("i").click(function () {
 
 });
 //First Compare Password
-/*function compareText() {
+function compareText() {
     var txt1, txt2;
     txt1 = document.getElementById('newPassword');
     txt2 = document.getElementById('confirmPassword');
@@ -36,20 +36,20 @@ $("i").click(function () {
     } else
         alert("Your password not same");
     return false;
-}*/
+}
 
 //Second
-function samePassword() {
-    var txt1, txt2, i, k, message;
-    message = document.getElementById('PasswordMatch');
-    txt1 = document.getElementById('newPassword');
-    txt2 = document.getElementById('confirmPassword');
-    if (txt1.value != txt2.value) {
-        message.innerHTML = "Password do not match";
-        message.style.color = 'red';
-    }
-    else {
-        message.innerHTML = "Great!!!";
-        message.style.color = 'green';
-    }
-}
+// function samePassword() {
+//     var txt1, txt2, i, k, message;
+//     message = document.getElementById('PasswordMatch');
+//     txt1 = document.getElementById('newPassword');
+//     txt2 = document.getElementById('confirmPassword');
+//     if (txt1.value != txt2.value) {
+//         message.innerHTML = "Password do not match";
+//         message.style.color = 'red';
+//     }
+//     else {
+//         message.innerHTML = "Great!!!";
+//         message.style.color = 'green';
+//     }
+// }

@@ -12,7 +12,7 @@
 </head>
 <body>
 <div class="container mt-5">
-    <form action="" class="text-center">
+    <form action="" class="text-center" method="post">
         <h1 class="text-center">Change Password</h1>
         <i class="fas fa-eye icon1" onclick="seePassword()" id="icon1"></i>
         <input type="password" id="newPassword" name="newPassword" class="password-input mt-4"
@@ -24,9 +24,22 @@
         <div id="PasswordMatch"></div>
         <br>
         <p id="text"></p>
-        <button class=" mt-4 change-btn" onclick="compareText()">Change Password</button>
+        <button id="btnSubmit" class=" mt-4 change-btn" onclick="compareText()">Change Password</button>
     </form>
-    <script src="script.js"></script>
+<!--    <script src="script.js"></script>-->
+    <script type="text/javascript">
+        $(function () {
+            $("#btnSubmit").click(function () {
+                var password = $("#newPassword").val();
+                var confirmPassword = $("#confirmPassword").val();
+                if (password != confirmPassword) {
+                    alert("Passwords do not match.");
+                    return false;
+                }
+                return true;
+            });
+        });
+    </script>
 </div>
 </body>
 </html>
