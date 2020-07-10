@@ -55,3 +55,14 @@
     color: #f8f9fa;
     margin-left: 18px;
 }
+
+@media screen and (max-width: 960px) {
+    .preview-share
+    {
+        width: 300px!important;
+    }
+    .share-icons
+    {
+        width:250px !important;
+    }
+}
