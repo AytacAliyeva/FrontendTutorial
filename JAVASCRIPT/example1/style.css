@@ -22,19 +22,20 @@
 .main p {
     color: #484a47;
 }
-.share-button
-{
+
+.share-button {
     border-radius: 50%;
     padding: 10px;
     z-index: 1;
-    border:none;
-    background:#484a47 ;
+    border: none;
+    background: #484a47;
     outline: none;
 }
-.share-button:focus
-{
-    outline: none!important;
+
+.share-button:focus {
+    outline: none !important;
 }
+
 .preview-share {
     visibility: hidden;
 }
@@ -58,8 +59,7 @@
 
 @media screen and (max-width: 960px) {
 
-    .share-icons
-    {
-        width:250px !important;
+    .share-icons {
+        width: 250px !important;
     }
 }
