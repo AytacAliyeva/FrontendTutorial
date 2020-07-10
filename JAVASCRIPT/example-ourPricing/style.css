@@ -101,6 +101,7 @@ input:checked + .slider:before {
     color: rgba(34, 34, 59, 0.8);
     font-weight: bold;
     border-bottom: 1px solid #dee2ff;
+    font-size: 450%;
 }
 
 .main-details button {
@@ -141,6 +142,17 @@ input:checked + .slider:before {
 .details h1 {
     color: white;
     font-weight: bold;
-    /*font-size: 400%;*/
+    font-size: 450%;
     border-bottom: 1px solid #dee2ff;
+}
+@media screen and (max-width: 990px){
+    .main-details h1
+    {
+        font-size: 300%!important;
+    }
+    .details h1
+    {
+        font-size: 300%!important;
+    }
+
 }
