@@ -56,11 +56,8 @@
     margin-left: 18px;
 }
 
-@media screen and (max-width: 960px) {
-    .preview-share
-    {
-        width: 300px!important;
-    }
+@media screen and (max-width: 960px) {/*
+
     .share-icons
     {
         width:250px !important;
