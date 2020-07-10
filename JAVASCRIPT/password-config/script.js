@@ -22,7 +22,7 @@ $("i").click(function () {
 
 });
 //First Compare Password
-function compareText() {
+/*function compareText() {
     var txt1, txt2;
     txt1 = document.getElementById('newPassword');
     txt2 = document.getElementById('confirmPassword');
@@ -30,26 +30,25 @@ function compareText() {
         alert("Please Enter Password")
     } else if (txt2.value == '') {
         alert("Please Enter Confirm Password")
-    } else if (txt1.value == txt2.value) {
-        alert("Great! Password same");
-        return true;
-    } else
+    } else if (txt1.value != txt2.value) {
         alert("Your password not same");
-    return false;
-}
+        return false;
+    }
+    return true;
+}*/
 
-//Second
-// function samePassword() {
-//     var txt1, txt2, i, k, message;
-//     message = document.getElementById('PasswordMatch');
-//     txt1 = document.getElementById('newPassword');
-//     txt2 = document.getElementById('confirmPassword');
-//     if (txt1.value != txt2.value) {
-//         message.innerHTML = "Password do not match";
-//         message.style.color = 'red';
-//     }
-//     else {
-//         message.innerHTML = "Great!!!";
-//         message.style.color = 'green';
-//     }
-// }
+Second
+function samePassword() {
+    var txt1, txt2, i, k, message;
+    message = document.getElementById('PasswordMatch');
+    txt1 = document.getElementById('newPassword');
+    txt2 = document.getElementById('confirmPassword');
+    if (txt1.value != txt2.value) {
+        message.innerHTML = "Password do not match";
+        message.style.color = 'red';
+    }
+    else {
+        message.innerHTML = "Great!!!";
+        message.style.color = 'green';
+    }
+}
