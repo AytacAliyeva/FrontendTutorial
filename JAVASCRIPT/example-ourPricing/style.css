@@ -154,5 +154,12 @@ input:checked + .slider:before {
     {
         font-size: 300%!important;
     }
-
+    .main-details
+    {
+        margin:0 15px;
+    }
+    .details
+    {
+        margin:0 15px;
+    }
 }
