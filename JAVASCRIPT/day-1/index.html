@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div class=" container keys d-flex justify-content-around align-items-center">
+    <div class="key" data-key="65">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+    </div>
+    <div class="key" data-key="83">
+        <kbd>S</kbd>
+        <span class="sound">hihat</span>
+    </div>
+    <div class="key" data-key="68">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+    </div>
+    <div class="key" data-key="70">
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+    </div>
+    <div class="key" data-key="71">
+        <kbd>G</kbd>
+        <span class="sound">boom</span>
+    </div>
+    <div class="key" data-key="72">
+        <kbd>H</kbd>
+        <span class="sound">ride</span>
+    </div>
+    <div class="key" data-key="74">
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+    </div>
+    <div class="key" data-key="75">
+        <kbd>K</kbd>
+        <span class="sound">tom</span>
+    </div>
+    <div class="key" data-key="76">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+    </div>
+</div>
+
+<audio src="sound/clap.mp3" data-key="65"></audio>
+<audio src="sound/hihat.mp3" data-key="83"></audio>
+<audio src="sound/kick.mp3" data-key="68"></audio>
+<audio src="sound/openhat.mp3" data-key="70"></audio>
+<audio src="sound/boom.mp3" data-key="71"></audio>
+<audio src="sound/ride.mp3" data-key="72"></audio>
+<audio src="sound/snare.mp3" data-key="74"></audio>
+<audio src="sound/tom.mp3" data-key="75"></audio>
+<audio src="sound/tink.wav" data-key="76"></audio>
+
+
+<script src="script.js">
+
+</script>
+</body>
+</html>

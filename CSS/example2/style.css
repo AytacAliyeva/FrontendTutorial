@@ -40,10 +40,10 @@
 .list {
     width: 300px;
 }
-.list li a:nth-child(2)
+/*.list li a:nth-child(2)
 {
     background-color: cyan;
-}
+}*/
 
 .sidemenu li a{
     display: block;
@@ -57,7 +57,7 @@
 .sidemenu li a:hover
  {
      background-color: cornflowerblue;
-    color: white;
+     color: white;
  }
 .sidemenu
 {

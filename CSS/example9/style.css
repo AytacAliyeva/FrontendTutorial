@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    background: #2f3e46;
+}
+.logo
+{
+   font-weight: bold;
+    font-size: 25px;
+    color: #cad2c5;
+    margin-top: 10px;
+    font-family: 'Righteous', cursive;
+}
+.list
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list li
+{
+    margin-left: 50px;
+}
+.list li a
+{
+    text-decoration: none;
+    color:#efd3d7 ;
+    font-family: 'Alata', sans-serif;
+    transition: .5s;
+    font-size: 18px;
+}
+.list li a:hover
+{
+    color: #ff87ab;
+    text-decoration: underline #efd3d7;
+}
+.div-btn button
+{
+    margin-top: 10px;
+    background: #028090;
+    border:none;
+    width: 130px;
+    padding: 8px;
+    border-radius: 15px;
+    color: #081c15;
+    font-size: 16px;
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+}

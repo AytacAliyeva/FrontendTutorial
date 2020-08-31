@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-section {
+    background-color: #253444;
+}
+
+.menu ul {
+    margin-bottom: 0 !important;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 12px;
+    transition: 0.7s;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.comparison {
+    height: 23px;
+}
+
+.info-li1 a {
+    text-decoration: none !important;
+}
+
+.info-li1 span, .info-li4 span {
+    color: white;
+    font-size: 12px;
+    transition: 0.7s;
+    font-weight: bold;
+}
+
+.info-li1 :hover, .info-li4 :hover {
+    color: red;
+}
+
+.navbar-menu {
+    background-color: #FF003C;
+}
+
+.logo img {
+
+    max-width: 110%;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+@media screen and (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.form-group input {
+    border: none;
+    border-radius: 3px;
+    height: 45px;
+    padding: 15px 40px 15px 10px;
+    position: relative;
+    max-width: 100%;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.form-group button {
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+}
+
+.upload {
+    width: 40px;
+    height: auto;
+}
+
+.basket {
+    width: 35px;
+    height: auto;
+}
+
+.logo-list a {
+    text-decoration: none;
+}
+
+.logo-list span {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

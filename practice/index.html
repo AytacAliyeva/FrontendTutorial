@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="menu ">
+
+                        <ul class="list-unstyled d-flex justify-content-around p-2">
+                            <li><a href="https://kontakt.az/kampaniyalar/">Kampaniyalar</a></li>
+                            <li><a href="https://kontakt.az/magazalar/">Mağazalar</a></li>
+                            <li><a href="https://kontakt.az/servisler/">Servislər</a></li>
+                            <li><a href="https://kontakt.az/faq/">Tez-tez verilən suallar</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="info m-auto">
+                        <ul class="list-unstyled d-flex justify-content-around mt-2">
+                            <li class="info-li1">
+                                <a href="https://www.million.az/attributes/KontaktHome">
+                                    <img src="https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/payment.png"
+                                         alt="">
+                                </a>
+                                <span>Aylıq ödəniş</span>
+                            </li>
+                            <li class="info-li2">
+                                <a href="https://www.million.az/attributes/KontaktHome">
+                                    <img src="https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/heart.png"
+                                         alt="">
+                                </a>
+                            </li>
+                            <li class="info-li3">
+                                <a href="https://www.million.az/attributes/KontaktHome">
+                                    <img src="https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/comparisonnew2.png"
+                                         alt="" class="comparison">
+                                </a>
+                            </li>
+                            <li class="info-li4">
+                                <a href="https://www.million.az/attributes/KontaktHome">
+                                    <img src="https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/mob.png"
+                                         alt="">
+                                </a>
+                                <span>*6060</span>
+                            </li>
+                            <li class="info-li5">
+                                <a href="https://www.million.az/attributes/KontaktHome">
+                                    <img src="https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/azerbaijan-flag-round-icon-256.png"
+                                         alt="">
+                                </a>
+                            </li>
+                            <li class="info-li6">
+                                <a href="https://www.million.az/attributes/KontaktHome">
+                                    <img src="https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/russia-flag-round-icon-256.png"
+                                         alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="navbar-menu">
+        <div class="container">
+            <div class="row d-flex justify-content-around">
+                <div class="col-9 col-lg-3 col-md-3 mt-1">
+                    <div class="logo">
+                        <a href="https://kontakt.az/">
+                            <img src="https://kontakt.az/wp-content/uploads/2020/06/k2020.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 mt-2">
+                    <form action="">
+                        <div class="form-group d-flex">
+                            <input type="text" placeholder="Axtarış..." class="form-control">
+                            <button>
+                                <img src="https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/search.png"
+                                     alt="">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <ul class="list-unstyled logo-list d-flex justify-content-around">
+                        <li class="logo-list-li1">
+                            <a href="">
+                                <img src="https://kontakt.az/wp-content/uploads/2020/04/Enter.png" alt=""
+                                     class="upload">
+                            </a>
+                            <span>Daxil ol</span>
+                        </li>
+                        <li class="logo-list-li2">
+                            <a href="">
+                                <img src="https://kontakt.az/wp-content/uploads/2020/04/sebet.png" alt=""
+                                     class="basket">
+                            </a>
+                            <span>Səbət</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<script>
+    $(function () {
+        $("ul .info-li1 a img").hover(function () {
+                $(this).attr('src', 'https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/payment-red.png');
+            }, function () {
+                $(this).attr('src', 'https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/payment.png');
+            }
+        )
+        $("ul .info-li2 a img").hover(function () {
+                $(this).attr('src', 'https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/heart-red.png');
+            }, function () {
+                $(this).attr('src', 'https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/heart.png');
+            }
+        )
+        $("ul .info-li3 a img").hover(function () {
+                $(this).attr('src', 'https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/comparisonnew-red-2.png');
+            }, function () {
+                $(this).attr('src', 'https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/comparisonnew2.png');
+            }
+        )
+        $("ul .info-li4 a img").hover(function () {
+                $(this).attr('src', 'https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/mob-red.png');
+            }, function () {
+                $(this).attr('src', 'https://kontakt.az/wp-content/themes/kontakt7/ktn-assets/assets/mob.png');
+            }
+        )
+    });
+</script>
+</body>
+</html>

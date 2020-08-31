@@ -72,7 +72,7 @@
     overflow: hidden;
     float: left;
 }
-.child1
+.child1, .child2
 {
     width: 200px;
     height: 225px;
@@ -82,21 +82,7 @@
     background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
     padding: 0px 10px 20px 10px;
 }
-.child2
-{
-    width: 200px;
-    height: 225px;
-    margin: 20px;
-    border: 2px solid coral;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
-    padding: 0px 10px 20px 10px;
-}
-.para1{
-    text-align: justify;
-    color: brown;
-}
-.para2{
+.para1, .para2{
     text-align: justify;
     color: brown;
 }
@@ -104,40 +90,26 @@
 {
     overflow: hidden;
 }
-.img1
+.img1, .img2, .img3
 {
     width: 200px;
     height: 153px;
     border: 3px solid coral;
     margin: 20px;
     border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-1
+{
     background-image: url("image/img1.jpg") ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
-.img2
+.img-2
 {
-    width: 200px;
-    height: 153px;
-    border: 3px solid coral;
-    margin: 20px;
-    border-radius: 20px;
     background-image: url("image/img2.jpg") ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
-
-.img3
+.img-3
 {
-    width: 200px;
-    height: 153px;
-    border: 3px solid coral;
-    margin: 20px;
-    border-radius: 20px;
     background-image: url("image/img3.jpg") ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
