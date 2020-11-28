@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Trispace:wght@500&display=swap');
+body
+{
+    background: #e9ecef;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.box1,.box2
+{
+    background: white;
+}
+.span {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    color: #ced4da;
+    font-size: 15px;
+    font-family: 'Itim', cursive;
+}
+/*.line
+{
+    width: 200px;
+    height: 1px;
+    background: #ced4da;
+    margin-left: 200px;
+    margin-top: 18px;
+}*/
+hr
+{
+    width: 20%;
+}
+.h2
+{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: #212529;
+}
+.text
+{
+    text-align: justify;
+    margin-left: 50px;
+    color: #ced4da;
+    font-family: 'Poppins', sans-serif;
+
+}
+button
+{
+    width: 150px;
+    margin-left: 200px;
+    padding: 13px;
+    background: none;
+    border: 1px solid #ced4da;
+    color: #6c757d;
+    font-family: 'Poppins', sans-serif;
+}

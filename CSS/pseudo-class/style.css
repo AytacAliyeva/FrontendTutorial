@@ -44,3 +44,12 @@ input:out-of-range
 {
     background: crimson;
 }
+input:nth-child(2)
+{
+    background: red;
+}
+input:disabled
+{
+    background: red;
+    color: white;
+}

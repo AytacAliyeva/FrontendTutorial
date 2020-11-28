@@ -1,7 +1,7 @@
 .main{
     border: 1px solid red;
     width: 100px;
-   
-  /*  overflow-x: hidden; !*visible hidden scroll auto*!
-    overflow-y: auto;*/
+   height: 100px;
+    overflow: hidden; /*visible hidden scroll auto*/
+    /*overflow-y: auto;*/
 }
